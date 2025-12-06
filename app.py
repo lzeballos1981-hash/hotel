@@ -1,8 +1,8 @@
 -- Crear base de datos
-CREATE DATABASE IF NOT EXISTS proyecto
+CREATE DATABASE IF NOT EXISTS hotel
 CHARACTER SET utf8mb4
 COLLATE utf8mb4_general_ci;
-USE proyecto; 1
+USE hotel;
 
 -- Tablas auxiliares / lookup
 CREATE TABLE promocion_temporada (
